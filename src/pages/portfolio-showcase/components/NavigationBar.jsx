@@ -45,8 +45,8 @@ const NavigationBar = () => {
                 <Icon name="Building2" size={24} color="white" />
               </div> */}
               <span className="text-xl font-heading font-bold text-light-text">
-                MKCC
-              </span>
+              MK<span className="gradient-text">CC</span>
+            </span>
             </Link>
 
             {/* Desktop Navigation */}

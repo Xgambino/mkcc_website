@@ -59,8 +59,8 @@ const Homepage = () => {
   ];
 
   const companyStats = [
-    { number: "150+", label: "Projects Completed" },
-    { number: "25+", label: "Years Experience" },
+    { number: "9+", label: "Projects Completed" },
+    { number: "5+", label: "Years Experience" },
     { number: "98%", label: "Client Satisfaction" },
     { number: "50+", label: "Expert Team Members" },
   ];
@@ -123,10 +123,10 @@ const Homepage = () => {
           <div className="space-y-8 animate-fade-in">
             {/* Company Name */}
             <h1 className="text-hero leading-tight">
-              <span className="block text-light-text font-heading font-bold">
+              <span className="inline text-light-text font-heading font-bold">
                 MK
               </span>
-              <span className="block gradient-text font-heading font-bold">
+              <span className="inline gradient-text font-heading font-bold">
                 CC
               </span>
             </h1>
@@ -147,7 +147,7 @@ const Homepage = () => {
               }`}
             >
               <p className="text-body-large text-muted-text leading-relaxed mb-8">
-                With over 25 years of excellence in construction consulting, we
+                With over 5 years of excellence in construction consulting, we
                 transform visions into reality through innovative design,
                 meticulous planning, and uncompromising quality. Your trusted
                 partner for exceptional construction solutions.
