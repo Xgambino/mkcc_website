@@ -41,9 +41,9 @@ const NavigationBar = () => {
           <div className="flex items-center justify-between h-16">
             {/* Logo */}
             <Link to="/homepage" className="flex items-center space-x-2 group">
-              <div className="w-10 h-10 rounded-lg gradient-primary flex items-center justify-center group-hover:scale-105 transition-transform duration-200">
+              {/* <div className="w-10 h-10 rounded-lg gradient-primary flex items-center justify-center group-hover:scale-105 transition-transform duration-200">
                 <Icon name="Building2" size={24} color="white" />
-              </div>
+              </div> */}
               <span className="text-xl font-heading font-bold text-light-text">
                 MKCC
               </span>
