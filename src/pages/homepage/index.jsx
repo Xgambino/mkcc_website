@@ -124,10 +124,10 @@ const Homepage = () => {
             {/* Company Name */}
             <h1 className="text-hero leading-tight">
               <span className="block text-light-text font-heading font-bold">
-                Maryann Kanyike
+                MK
               </span>
               <span className="block gradient-text font-heading font-bold">
-                Construction Consultants
+                CC
               </span>
             </h1>
 

@@ -448,7 +448,7 @@ useEffect(() => {
           end: projects.length,
           suffix: "+",
         },
-        { label: "Years Experience", end: 15, suffix: "+" },
+        { label: "Years Experience", end: 5, suffix: "+" },
         { label: "Client Satisfaction", end: 98, suffix: "%" },
         { label: "Team Members", end: 50, suffix: "+" },
       ].map((stat, index) => (
