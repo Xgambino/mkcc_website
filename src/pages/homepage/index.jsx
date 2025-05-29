@@ -243,7 +243,7 @@ const Homepage = () => {
             <div className="max-w-4xl mx-auto">
               <p className="text-body-large text-muted-text leading-relaxed mb-8">
                 Maryann Kanyike Construction Consultants has been at the
-                forefront of construction innovation for over two decades. We
+                forefront of construction innovation for over half a decade. We
                 specialize in delivering comprehensive construction consulting
                 services that ensure your projects are completed on time, within
                 budget, and to the highest quality standards.

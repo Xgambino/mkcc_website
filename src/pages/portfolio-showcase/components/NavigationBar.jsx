@@ -44,7 +44,7 @@ const NavigationBar = () => {
               {/* <div className="w-10 h-10 rounded-lg gradient-primary flex items-center justify-center group-hover:scale-105 transition-transform duration-200">
                 <Icon name="Building2" size={24} color="white" />
               </div> */}
-              <span className="text-xl font-heading font-bold text-light-text">
+              <span className="text-2xl sm:text-3xl md:text-4xl font-heading font-bold text-light-text hidden sm:block">
               MK<span className="gradient-text">CC</span>
             </span>
             </Link>
