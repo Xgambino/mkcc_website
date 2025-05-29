@@ -73,7 +73,7 @@ const ContactForm = () => {
     setErrors({}); // clear previous submit errors
 
     try {
-      const response = await fetch('https://formspree.io/f/{your_form_id}', {
+      const response = await fetch('https://formspree.io/f/xvgaenkv', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
