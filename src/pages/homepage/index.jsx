@@ -103,8 +103,22 @@ const Homepage = () => {
 
       {/* Hero Section */}
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+        {/* Desktop Video Background with 50% opacity */}
+        <video
+          className="absolute inset-0 object-cover w-full h-full hidden md:block opacity-30 "
+          autoPlay
+          muted
+          loop
+          playsInline
+        >
+          <source src="/hero.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+         {/* Pulsating Overlay on Desktop */}
+  <div className="absolute inset-0 hidden md:block bg-dark-bg/40 animate-pulse" />
+
         {/* Animated Background */}
-        <div className="absolute inset-0 bg-gradient-to-br from-primary-dark via-dark-bg to-dark-surface animate-pulse-gradient" />
+         <div className="absolute inset-0 bg-gradient-to-br from-primary-dark via-dark-bg to-dark-surface animate-pulse-gradient md:hidden" />
 
         {/* Background Pattern */}
         <div className="absolute inset-0 opacity-10">
@@ -122,7 +136,7 @@ const Homepage = () => {
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="space-y-8 animate-fade-in">
             {/* Company Name */}
-            <h1 className="text-hero leading-tight">
+            <h1 className="text-hero   leading-tight">
               <span className="inline text-light-text font-heading font-bold">
                 MK
               </span>
